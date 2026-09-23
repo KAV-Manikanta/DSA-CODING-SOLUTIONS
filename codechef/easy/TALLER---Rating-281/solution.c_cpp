@@ -3,10 +3,17 @@ using namespace std;
 
 int main() {
 	// your code goes here
-    int N,M ;
-    cin >> N >> M ;
-    int X,Y ;
-    cin >> X >> Y ;
-    cout << (N*X)+(M*Y) ;
+    int T ;
+    cin >> T ;
+    while(T--){
+        int X,Y ;
+        cin >> X >> Y ;
+        if(X > Y){
+            cout << "A" << endl ;
+        }
+        else{
+            cout << "B" << endl ;
+        }
+    }
     return 0;
 }
