@@ -8,7 +8,7 @@ int main() {
     while(T--){
         int N,K;
         cin >> N >> K;
-        cout << N + (N/K) << endl;
+        cout << N + ((N-1)/(K-1)) << endl;
     }
     return 0;
 }
