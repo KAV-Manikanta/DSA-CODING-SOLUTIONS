@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+    int X,Y ;
+    scanf("%d %d",&X,&Y);
+    int Clear_Days = 7 - (X + Y) ;
+    printf("%d",Clear_Days);
+    return 0;
+}
+
