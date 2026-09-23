@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:30:09.230Z  
+**Submitted:** 2026-09-23T15:31:11.220Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -89,8 +89,8 @@ int main() {
     while(T--){
         int N,K;
         cin >> N >> K ;
-        int Arr[N];
-        for(int i = 0 ; i < N ; i++){
+        int Arr[N+1];
+        for(int i = 1 ; i < N ; i++){
             cin >> Arr[i];
         }
         
