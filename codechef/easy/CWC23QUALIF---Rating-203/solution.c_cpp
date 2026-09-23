@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+    int Score ;
+    scanf("%d",&Score);
+    if(Score >= 12){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
+    return 0 ;
+}
+
