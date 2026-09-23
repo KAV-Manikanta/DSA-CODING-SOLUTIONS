@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int A,B;
+	cin >> A >> B;
+	int result = 1 + (A+B)*10 ;
+	cout << result;
+return 0;
+}
